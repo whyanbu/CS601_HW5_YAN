@@ -1,0 +1,17 @@
+.inventory-item-wrap {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightsteelblue;
+    border-radius: 1rem;
+    margin: 0.5rem auto;
+    width: 80%;
+    min-width: 40rem;
+    justify-content: space-between;
+}
+
+.inventory-item-wrap > div {
+    width: 80%;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}

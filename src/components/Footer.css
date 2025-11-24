@@ -1,0 +1,17 @@
+footer {
+    background: lightgray;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-link-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-link-wrap > a + a::before {
+    content: "\00a0\00a0|\00a0\00a0";
+}

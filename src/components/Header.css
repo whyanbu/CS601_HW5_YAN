@@ -1,0 +1,8 @@
+header {
+    background-color: lightslategray;
+    color: white;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
