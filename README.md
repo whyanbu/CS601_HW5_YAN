@@ -30,6 +30,7 @@ CS601_HW5_YAN
 ├── package-lock.json
 ├── package.json
 ├── public
+│   ├── favicon.ico
 │   └── inventory.json
 ├── src
 │   ├── App.css
@@ -41,6 +42,7 @@ CS601_HW5_YAN
 │   │   ├── Header.tsx
 │   │   ├── InventoryItem.css
 │   │   ├── InventoryItem.tsx
+│   │   ├── InventoryList.css
 │   │   ├── InventoryList.tsx
 │   │   └── type.ts
 │   ├── index.css

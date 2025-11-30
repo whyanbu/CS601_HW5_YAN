@@ -7,6 +7,7 @@
     width: 80%;
     min-width: 40rem;
     justify-content: space-between;
+    transition: transform .3s;
 }
 
 .inventory-item-wrap > div {
@@ -14,4 +15,11 @@
     margin: 0.5rem 1rem;
     padding: 0.5rem 1rem;
     text-align: left;
+}
+
+.inventory-item-wrap:hover {
+    transform: scale(1.02);
+    border-color: unset;
+    background-color: lightsalmon;
+    color: white;
 }
