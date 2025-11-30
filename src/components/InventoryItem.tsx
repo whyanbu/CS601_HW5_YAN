@@ -7,7 +7,7 @@ const InventoryItem = (props: Item) => {
             <div>SKU: {props.SKU}</div>
             <div>Name: {props.name}</div>
             <div>Quantity: {props.quantity}</div>
-            <div>Price: {props.price.toFixed(2)}</div>
+            <div>Price: ${props.price.toFixed(2)}</div>
         </div>
     );
 };

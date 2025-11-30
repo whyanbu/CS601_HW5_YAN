@@ -10,7 +10,7 @@ const InventoryList = () => {
 
     useEffect(() => {
         const fetchItems = async () => {
-            const response = await fetch("inventory.json");
+            const response = await fetch("/inventory.json");
             const data: Item[] = await response.json();
             setItems(data);
             setIsLoaded(true);
